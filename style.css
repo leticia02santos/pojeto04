@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: tomato;
+}
+
+/* Padrões */
+
+.container-principal{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.container{
+width: 80%;
+height: 100px;
+}
+
+/* Padrões */
+
+/* HEADER */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    background-image: url(https://raw.githubusercontent.com/INDESBR/bootcamp_projeto04/25a05ab3e50d2be7ec8be9dd22bff947200e93b3/Logo/logo_branco.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-container{
+height: auto;
+}
+
+.main-foto{
+width: 400px;
+height: 300px;
+background-image: url(https://github.com/INDESBR/bootcamp_projeto04/blob/master/Imagens/imgbin_dogs-png.png?raw=true);
+background-size: contain;
+background-repeat: no-repeat;
+transform: translateY(41px);
+}
+
+/* MAIN */
+
+/* section-grid */
+#sec-container{
+   
+    height: auto;
+    background-color: white;
+}
+
+.grid-content{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+}
+
+.grid-item{
+    width: 200px;
+    height: 200px;
+    background-color: darkmagenta;
+    margin: 20px auto;
+}
+
+/* section-grid */
+
+/* section - quem somos */
+
+#sec-quem-somos{
+    height: auto;
+    background-color: darkseagreen;
+}
+
+#sec-qs-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qs-foto{
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
+}
+
+.qs-texto{}
+
+/* section -  quem somos */
+
